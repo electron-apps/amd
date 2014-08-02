@@ -1,0 +1,10 @@
+body {
+  padding-top: 15px;
+}
+
+#markdown {
+  width: 100%;
+  min-height: 200px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}

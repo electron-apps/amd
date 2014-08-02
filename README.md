@@ -20,6 +20,7 @@ amd
 ## 目录
 
 * [第一章: hello atom shell world](/atom-apps/amd/issues/1)
+* [第二章: 简易 Markdown 编辑器](/atom-apps/amd/issues/2)
 
 ## License
 

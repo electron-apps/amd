@@ -16,6 +16,8 @@
 
 var app = require('app');  // Module to control application life.
 var BrowserWindow = require('browser-window');  // Module to create native browser window.
+var Screen = require('screen');
+var workAreaSize = Screen.getPrimaryDisplay().workAreaSize;
 
 // Report crashes to our server.
 require('crash-reporter').start();
@@ -37,7 +39,7 @@ app.on('window-all-closed', function () {
 app.on('ready', function () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 800, height: 600,
+    width: workAreaSize.width, height: workAreaSize.height,
   });
 
   // and load the index.html of the app.

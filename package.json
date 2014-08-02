@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "description": "A Markdown Editor base on atom-shell",
   "main": "main.js",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
+    "jquery": "^2.1.1",
+    "jquery-autosize": "^1.18.4",
+    "marked": "^0.3.2"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "homepage": "https://github.com/atom-apps/amd",
   "repository": {
     "type": "git",

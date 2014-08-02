@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello World!</title>
+    <title>Atom shell Markdown Editor</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./bootstrap-3.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node.js <script>document.write(process.version)</script>
-    and atom-shell <script>document.write(process.versions['atom-shell'])</script>.
+    <div class="col-sm-6 col-md-6">
+      <textarea id="markdown">#### Markdown Here</textarea>
+    </div>
+    <div class="col-sm-6 col-md-6">
+      <div id="html"></div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
