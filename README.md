@@ -19,8 +19,13 @@ amd
 
 ## 目录
 
-* [第一章: hello atom shell world](/atom-apps/amd/issues/1)
-* [第二章: 简易 Markdown 编辑器](/atom-apps/amd/issues/2)
+* [第一章: hello atom shell world](https://github.com/atom-apps/amd/issues/1)
+* [第二章: 简易 Markdown 编辑器](https://github.com/atom-apps/amd/issues/2)
+* [第三章: 打包发布](https://github.com/atom-apps/amd/issues/3)
+
+## 最终产物
+
+![1](https://cloud.githubusercontent.com/assets/156269/3788627/4127f5fa-1a6f-11e4-978c-7a25f4f080a1.png)
 
 ## License
 
