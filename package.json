@@ -1,0 +1,30 @@
+{
+  "name": "amd",
+  "version": "0.0.0",
+  "description": "A Markdown Editor base on atom-shell",
+  "main": "main.js",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "homepage": "https://github.com/atom-apps/amd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atom-apps/amd.git",
+    "web": "https://github.com/atom-apps/amd"
+  },
+  "bugs": {
+    "url": "https://github.com/atom-apps/amd/issues",
+    "email": "fengmk2@gmail.com"
+  },
+  "keywords": [
+    "amd"
+  ],
+  "engines": {
+    "node": ">= 0.11.9"
+  },
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+  "license": "MIT"
+}
