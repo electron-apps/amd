@@ -3,11 +3,15 @@
   "version": "0.0.0",
   "description": "A Markdown Editor base on atom-shell",
   "main": "main.js",
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
   "dependencies": {
     "jquery": "^2.1.1",
     "jquery-autosize": "^1.18.4",
-    "marked": "^0.3.2"
+    "marked": "^0.3.2",
+    "snyk": "^1.52.1"
   },
   "devDependencies": {},
   "homepage": "https://github.com/atom-apps/amd",
@@ -27,5 +31,6 @@
     "node": ">= 0.11.9"
   },
   "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
