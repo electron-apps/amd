@@ -5,9 +5,9 @@
   "main": "main.js",
   "scripts": {},
   "dependencies": {
-    "jquery": "^2.1.1",
+    "jquery": "^3.4.0",
     "jquery-autosize": "^1.18.4",
-    "marked": "^0.3.2"
+    "marked": "^0.6.2"
   },
   "devDependencies": {},
   "homepage": "https://github.com/atom-apps/amd",
